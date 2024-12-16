@@ -1,4 +1,3 @@
-export function areValuesEqual(num1: number, num2: number): boolean {
-    console.log("Hello")
-    return false
+export function areValuesEqual(value1: any, value2: any): boolean {
+    return value1 === value2
 }
